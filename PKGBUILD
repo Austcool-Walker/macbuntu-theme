@@ -42,10 +42,12 @@ source=("https://github.com/Austcool-Walker/macbuntu-theme/releases/download/1.0
 	"https://github.com/Austcool-Walker/macbuntu-patches/raw/master/%E4%BA%A4%E9%8C%AF%E3%81%9B%E3%81%97%E6%88%A6%E7%A5%9E.patch"
 	"https://github.com/Austcool-Walker/macbuntu-icons/raw/master/startup.svg"
 	"https://github.com/Austcool-Walker/macbuntu-patches/raw/master/Black_Heart_%EF%BC%9CAngel%20Processor%EF%BC%9E(65051146).patch"
+	"https://github.com/Austcool-Walker/macbuntu-patches/raw/master/k69a8l2d3tu41.patch"
 	"https://github.com/Austcool-Walker/macbuntu-icons/raw/master/Black_Heart_%EF%BC%9CAngel%20Processor%EF%BC%9E(65051146).png"
 	"https://github.com/Austcool-Walker/macbuntu-icons/raw/master/Ou6o6vplRGmEMg2U.png"
 	"https://github.com/Austcool-Walker/macbuntu-icons/raw/master/ldeKlVFl2uLAljkw.png"
 	"https://github.com/Austcool-Walker/macbuntu-icons/raw/master/Phoenix.png"
+	"https://github.com/Austcool-Walker/macbuntu-icons/raw/master/k69a8l2d3tu41.jpg"
 	"https://github.com/Austcool-Walker/macbuntu-icons/raw/master/%E4%BA%A4%E9%8C%AF%E3%81%9B%E3%81%97%E6%88%A6%E7%A5%9E.jpg"
 	"https://github.com/Austcool-Walker/macbuntu-icons/raw/master/BlackHeartSwimsuit.png")
 sha512sums=('e0b69da47480db9675359e37ff4b5187007735127c2eebf6032d0a70fa06daa7c1b577426a14d907396ac410e2406b04831bbab653c93a335ad0014a7749d20d'
@@ -80,6 +82,7 @@ prepare() {
 	patch -Np0 -i "Catalina-Pheonix.patch"
 	patch -Np0 -i "%E4%BA%A4%E9%8C%AF%E3%81%9B%E3%81%97%E6%88%A6%E7%A5%9E.patch"
 	patch -Np0 -i "Black_Heart_%EF%BC%9CAngel%20Processor%EF%BC%9E(65051146).patch"
+	patch -Np0 -i "k69a8l2d3tu41.patch"
 }
 
 package() {
@@ -108,6 +111,7 @@ package() {
 	cp -v ${srcdir}/Ou6o6vplRGmEMg2U.png ${pkgdir}/usr/share/backgrounds/Catalina-Day.png
 	cp -v ${srcdir}/ldeKlVFl2uLAljkw.png ${pkgdir}/usr/share/backgrounds/Catalina-Night.png
 	cp -v ${srcdir}/Phoenix.png ${pkgdir}/usr/share/backgrounds/Phoenix.png
+	cp -v ${srcdir}/k69a8l2d3tu41.jpg ${pkgdir}/usr/share/icons/macOS/apps/128/k69a8l2d3tu41.jpg
 	cp -v ${srcdir}/%E4%BA%A4%E9%8C%AF%E3%81%9B%E3%81%97%E6%88%A6%E7%A5%9E.jpg ${pkgdir}/usr/share/backgrounds/-交錯せし戦神-.jpg
 	cp -v ${srcdir}/"Black_Heart_%EF%BC%9CAngel%20Processor%EF%BC%9E(65051146).png" ${pkgdir}/usr/share/backgrounds/"Black_Heart_＜Angel Processor＞(65051146).png"
 	cp -v ${srcdir}/BlackHeartSwimsuit.png ${pkgdir}/usr/share/icons/macOS/apps/128/BlackHeartSwimsuit.png
