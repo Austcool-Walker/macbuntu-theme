@@ -113,7 +113,7 @@ package() {
 	cp -v ${srcdir}/Ou6o6vplRGmEMg2U.png ${pkgdir}/usr/share/backgrounds/Catalina-Day.png
 	cp -v ${srcdir}/ldeKlVFl2uLAljkw.png ${pkgdir}/usr/share/backgrounds/Catalina-Night.png
 	cp -v ${srcdir}/Phoenix.png ${pkgdir}/usr/share/backgrounds/Phoenix.png
-	cp -v ${srcdir}/k69a8l2d3tu41.jpg ${pkgdir}/usr/share/icons/macOS/apps/128/k69a8l2d3tu41.jpg
+	cp -v ${srcdir}/k69a8l2d3tu41.jpg ${pkgdir}/usr/share/backgrounds/k69a8l2d3tu41.jpg
 	cp -v ${srcdir}/%E4%BA%A4%E9%8C%AF%E3%81%9B%E3%81%97%E6%88%A6%E7%A5%9E.jpg ${pkgdir}/usr/share/backgrounds/-交錯せし戦神-.jpg
 	cp -v ${srcdir}/"Black_Heart_%EF%BC%9CAngel%20Processor%EF%BC%9E(65051146).png" ${pkgdir}/usr/share/backgrounds/"Black_Heart_＜Angel Processor＞(65051146).png"
 	cp -v ${srcdir}/BlackHeartSwimsuit.png ${pkgdir}/usr/share/icons/macOS/apps/128/BlackHeartSwimsuit.png
