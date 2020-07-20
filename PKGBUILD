@@ -24,6 +24,7 @@ _hash_time=($(curl -s "$url4"|grep -e "hash =" -e "timetamp ="|sed "s/.*= '\(.*\
 
 source=("https://github.com/Austcool-Walker/macbuntu-theme/releases/download/1.0/${pkgname}.txz"
 	"https://github.com/Austcool-Walker/macbuntu-packages/raw/master/Arc-Dark-OSX.txz"
+	"https://github.com/Austcool-Walker/macbuntu-packages/raw/master/BigSurIcons.txz"
 	"https://github.com/Austcool-Walker/macbuntu-packages/raw/master/jFhANdVGWjRVQHRB.txz"
 	"https://github.com/Austcool-Walker/macbuntu-packages/raw/master/pMlCEu5HhOoggOV4.txz"
 	"https://github.com/Austcool-Walker/macbuntu-packages/raw/master/IQcbr.txz"
@@ -52,6 +53,7 @@ source=("https://github.com/Austcool-Walker/macbuntu-theme/releases/download/1.0
 	"https://github.com/Austcool-Walker/macbuntu-icons/raw/master/BlackHeartSwimsuit.png")
 sha512sums=('e0b69da47480db9675359e37ff4b5187007735127c2eebf6032d0a70fa06daa7c1b577426a14d907396ac410e2406b04831bbab653c93a335ad0014a7749d20d'
             '2e68ebd7fee21f21e52f05404f7a127aab26f2081c163991309af419982d46957b93afadb72a7724642e73b8ea6d6c14d46f2c8734e1caa39687d6762e7b9435'
+            '7b3b2cbb25c755e19a9c8621920e36bf72fafcee5ff9aef69ea852feda4cbfb2b0928a880c45fe27f85342e99dc4a322d740bea442827fcf378393f097f79421'
             '71498c01d0a92764eeb4c379c875f686d678365141061381b143b5a7e23774e30da82dc0b9f0e5d9ed371fd0180aea5478073ef55f5f12a6b2e9d629b020e43c'
             '21bbc894532c69d374ad75f94565b3e5a04caedb3183fd4cf4c80e1be903deef1f5a727cb94d6265781de6af544ae75fe030d0c3689beb44d9e8b87f47e7782d'
             '2a7960771c24a5ac3362c414323110124d0de1dd4b408495ca3468c190f476300db6f2d8f5cec36bdc24dddfd49deb56cd4eaa27633aeac6968d863fe818f63c'
